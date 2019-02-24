@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>4.0</version>
+    <date>2019-02-24T21:23:41Z</date>
+    <groups>
+        <group>
+            <name>Mikroitk</name>
+        </group>
+    </groups>
+    <templates>
+        <template>
+            <template>ZBX-MIKROTIK-WIRELESS</template>
+            <name>ZBX-MIKROTIK-WIRELESS</name>
+            <description/>
+            <groups>
+                <group>
+                    <name>Mikroitk</name>
+                </group>
+            </groups>
+            <applications/>
+            <items/>
+            <discovery_rules/>
+            <httptests/>
+            <macros/>
+            <templates>
+                <template>
+                    <name>ZBX-MIKROTIK-Wireless-access-point</name>
+                </template>
+                <template>
+                    <name>ZBX-MIKROTIK-Wireless-Registration-Table</name>
+                </template>
+                <template>
+                    <name>ZBX-MIKROTIK-Wireless-Station</name>
+                </template>
+            </templates>
+            <screens/>
+        </template>
+    </templates>
+</zabbix_export>

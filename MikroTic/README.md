@@ -4,7 +4,8 @@ For small wireless router,Products: RB911G-5HPnD
 
 mtxrWireless	GROUP	1.3.6.1.4.1.14988.1.1.1
 iso(1). org(3). dod(6). internet(1). private(4). enterprises(1). mikrotik(14988). mikrotikExperimentalModule(1). mtXRouterOs(1). mtxrWireless(1)
-  	mtxrWlStatTable	TABLE	not-accessible	SEQUENCE OF	1.3.6.1.4.1.14988.1.1.1.1
+  
+  mtxrWlStatTable	TABLE	not-accessible	SEQUENCE OF	1.3.6.1.4.1.14988.1.1.1.1
   	  	mtxrWlStatEntry	ENTRY	not-accessible	MtxrWlStatEntry	1.3.6.1.4.1.14988.1.1.1.1.1
   	  	  	mtxrWlStatIndex	TABULAR	not-accessible	ObjectIndex	1.3.6.1.4.1.14988.1.1.1.1.1.1
   	  	  	mtxrWlStatTxRate	TABULAR	read-only	Gauge32	1.3.6.1.4.1.14988.1.1.1.1.1.2
